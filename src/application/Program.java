@@ -32,10 +32,10 @@ public class Program {
 		double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
 		
 		if (areaX > areaY) {
-			System.out.printf("Triangle X, %.4f%n", areaX);
+			System.out.printf("Triangle X is, %.4f%n", areaX);
 		}
 		else {
-			System.out.printf("Triangle Y, %.4f%n", areaY);
+			System.out.printf("Triangle Y is, %.4f%n", areaY);
 		}
 		
 		sc.close();
